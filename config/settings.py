@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'django_extensions',
 
     # 이 패키지는 application취급
-    'blog',
+    'blog.apps.BlogConfig',
 ]
 
 MIDDLEWARE = [
